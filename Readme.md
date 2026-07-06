@@ -3,6 +3,11 @@
 This project implements an Asynchronous Muller C-element using Verilog HDL and demonstrates the complete RTL-to-GDSII ASIC design flow using Cadence EDA tools.
 
 ## Project Flow ##
+# Muller C-Element RTL-to-GDSII Implementation
+
+## Project Flow
+
+```text
 Verilog RTL
       │
       ▼
@@ -25,25 +30,32 @@ Placement & Routing
       │
       ▼
 GDSII Layout
+```
 
-## Project Files ##
+---
 
-muller.v – RTL design
-muller_tb.v – Testbench
-constraints.sdc – Synthesis constraints
-genus.tcl – Genus synthesis script
-muller_netlist.v – Synthesized netlist
-area.rpt – Area report
-timing.rpt – Timing report
-power.rpt – Power report
-muller.gds – Final GDSII layout
+## Project Files
 
-## Tools Used ##
+| File | Description |
+|------|-------------|
+| `muller.v` | RTL design |
+| `muller_tb.v` | Testbench |
+| `constraints.sdc` | Synthesis constraints |
+| `genus.tcl` | Genus synthesis script |
+| `muller_netlist.v` | Synthesized netlist |
+| `area.rpt` | Area report |
+| `timing.rpt` | Timing report |
+| `power.rpt` | Power report |
+| `muller.gds` | Final GDSII layout |
 
-Verilog HDL
-Cadence NCLAUNCH
-Cadence Genus
-Cadence Innovus
+---
+
+## Tools Used
+
+- Verilog HDL
+- Cadence NCLAUNCH
+- Cadence Genus
+- Cadence Innovus
 
 ## Flow Completed ##
 
@@ -67,9 +79,6 @@ Cadence Innovus
 
 ✔ GDSII Generation
 
-
-Timing report
-Power report
 Project Objective
 
 To implement and verify an asynchronous Muller C-element while learning the complete ASIC implementation flow from RTL to GDSII using industry-standard Cadence tools.
