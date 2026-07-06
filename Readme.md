@@ -3,7 +3,7 @@
 This project implements an Asynchronous Muller C-element using Verilog HDL and demonstrates the complete RTL-to-GDSII ASIC design flow using Cadence EDA tools.
 
 ## Project Flow ##
-## Verilog RTL
+Verilog RTL
       │
       ▼
 Functional Simulation
@@ -24,10 +24,10 @@ Physical Design
 Placement & Routing
       │
       ▼
-GDSII Layout ##
-
+GDSII Layout
 
 ## Project Files ##
+
 muller.v – RTL design
 muller_tb.v – Testbench
 constraints.sdc – Synthesis constraints
@@ -42,7 +42,6 @@ muller.gds – Final GDSII layout
 
 Verilog HDL
 Cadence NCLAUNCH
-SimVision
 Cadence Genus
 Cadence Innovus
 
