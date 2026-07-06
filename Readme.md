@@ -144,7 +144,7 @@ The final layout was exported as a **GDSII** file, which is the standard format 
 
 ## Author
 
-**Surj**
+**Surjini R**
 
 Electronics and Communication Engineering
 
